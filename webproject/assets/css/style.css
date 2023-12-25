@@ -1,0 +1,36 @@
+body {
+    background-color:darkgrey;
+    color: black;
+    font-family:'Roboto', sans-serif;
+    font-size: 1rem;
+    margin: 0px;
+    padding: 0px;
+}
+
+.carousel-inner img {
+    width: 100%;
+    /* Set the width as you like, it will scale proportionally */
+    height: 600px;
+    /* Set the height as you like */
+    object-fit: cover;
+}
+
+/* This property ensures the image covers the entire container */
+
+.navbar {
+    color: darkgray;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 35px;
+    margin: 0px;
+    padding: 0px auto;
+}
+.navbar-nav li a:hover{
+    
+    color: rgb(255, 206, 11) !important;
+    line-height:35px ;
+    cursor: pointer;
+}
+
+.btn:hover{background-color: rgb(226, 61, 43); color: gold;}
+
